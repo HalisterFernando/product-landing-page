@@ -4,72 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <title>Musikal</title>
 </head>
-<body id="body">
+<body>
   <header id="header">
-    <div class="container">
-    <div><img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" alt="Tux Logo"></div>
-       
-      <div><h1 id="title">Freedom</h1></div>
-        
-    <div><nav id="nav-bar">
-      
-      <div class="nav-div"><a class="nav-link" href="#red-hatc">Red Hat</a></div>
-        <div class="nav-div"><a class="nav-link" href="#ubuntuc">Ubuntu</a></div>
-        <div class="nav-div"><a class="nav-link" href="#zorinc">Zorin</a></div>
-      
-      </nav></div>  
-    </div>
-  </header><br><br><br><br><br>
+    <img id="header-img" src="https://www.seekpng.com/png/full/284-2848248_related-wallpapers-transparent-white-music-notes-png.png" alt="Company Logo">
+    <h1>Musikal</h1>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#video"><b>Review</b></a></li>
+        <li><a class="nav-link" href="#feature"><b>Novidades</b></a></li>
+        <li><a class="nav-link" href="#contato"><b>Contato</b></a></li>
+      </ul>
+    </nav>      
+  </header>
   
-  <h2 id="penguim">Aprenda a dominar o pinguim!</h2>
+  <h2 id="register"><b>Faça seu cadastro</b></h2>
   <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
     <input id="email" type="email" name="email" placeholder="Insira seu email"><br>
     <input id="submit" type="submit" formaction="https://www.freecodecamp.com/email-submit">
   </form>
-  
-  <div id="distros">
-    <div class="d1"> <img class="logo"src="https://access.redhat.com/webassets/avalon/g/shadowman-200.png" alt="Redhat"></div>
-    <div class="red-hat"><h2>Red Hat</h2>
-        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.</p></div>
-     <div class="d2"><img class="logo"src="https://www.unixmen.com/wp-content/uploads/2012/04/ubuntu-logo.png" alt="Ubuntu"></div>
-    <div class="ubuntu"><h2>Ubuntu</h2>
-        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.</p></div>
-     <div class="d3"><img class="logo"src="https://linuxx.info/wp-content/uploads/2019/10/vypushhen-zorin-os-15-osnovannyj-na-ubuntu-18042-lts-ccf1a38-1.jpg" alt="Zorin"></div>
-    <div class="zorin"><h2>Zorin</h2>
-        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.</p></div>
-    </div>
-  
-      
-    
-  <br>   
-  <br>
+  <div id="f-container">
+  <section id="s-feature">
+    <h2 id="feature"><strong>Novidades do mês</strong></h2>
+    <img src="https://images.tcdn.com.br/img/img_prod/477617/guitarra_strinberg_lps230_les_paul_azul_47136_2_20180821152541.jpg" alt="Guitarra Les Paul">
+    <p class="instrument">Guitarra  Les Paul</p>
+    <img src="https://www.musitechinstrumentos.com.br/files/pro_31102_g.jpg" alt="">
+    <p class="instrument">Baixo Warwick</p>
+    <img src="http://cdn1.appsisecommerce.com.br/clientes/cliente1614/produtos/131674/P01454344060.jpg" alt="">
+    <p class="instrument">Bateria Pearl</p>
+  </section>
+  </div>  
   <div id="iframe">
-      <iframe id="video" width="660" height="415" src="https://www.youtube.com/embed/MBYeDHDOGIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div><br><br><br>
+      <iframe id="video" width="660" height="415" src="https://www.youtube.com/embed/pfDJtxLNhV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   
   <div id="valores">
     <div class="comprar">
-      <h2 id="red-hatc">Red Hat</h2>
-      <h3>R$200</h3>
+      <h2 id="guita-k">Kit Guitarra Iniciante</h2>
+      <h3>R$300</h3>
       <p> Lorem ipsum. Lorem ipsum.Lorem ipsum dolor.Lorem ipsum.</p>
       <button class="select" type="submit">Comprar</button>
     </div>
       <div class="comprar">
-      <h2 id="ubuntuc">Ubuntu</h2>
-      <h3>R$400</h3>
+      <h2 id="bat-k">Kit Bateria Iniciante</h2>
+      <h3>R$800</h3>
       <p> Lorem ipsum. Lorem ipsum.Lorem ipsum dolor.Lorem ipsum.</p>
         <button class="select" type="submit">Comprar</button>
     </div>
       <div class="comprar">
-      <h2 id="zorinc">Zorin</h2>
-      <h3>R$600</h3>
+      <h2 id="baixo-k">Kit Baixo Iniciante</h2>
+      <h3>R$500</h3>
       <p> Lorem ipsum. Lorem ipsum.Lorem ipsum dolor.Lorem ipsum.</p>
         <button class="select" type="submit">Comprar</button>
     </div>   
     
   </div>
+  
+  <footer>
+    <div id="footer">
+      <p>Musikal 2021</p>
+      <p id="contato">Contato: (43)7982-7565 / musikal@musikal.com.br</p>
+    </div>
+  </footer>
   
 </body>
 </html>
